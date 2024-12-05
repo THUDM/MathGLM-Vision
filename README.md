@@ -10,7 +10,7 @@ We have developed a new series of multimodal mathematical models, MathGLM-Vision
 If you want to find the detailed introduction, Read our paper: [MathGLM-Vision: Solving Mathematical Problems with Multi-Modal Large Language Model](https://arxiv.org/pdf/2409.13729).
 
 ## Model checkpoint
-The checkpoints of MathGLM-Vision-9B and MathGLM-Vision-19B are released here, which are based on GLM-4V-9B and CogVLM2 respectively.
+The checkpoints for MathGLM-Vision-9B and MathGLM-Vision-19B, based on GLM-4V-9B and CogVLM2 respectively, are now available.
 
 - [MathGLM-Vision-9B checkpoint](https://huggingface.co/THUDM/MathGLM-Vision)
 - [MathGLM-Vision-19B checkpoint](https://huggingface.co/THUDM/MathGLM-Vision-19B)
