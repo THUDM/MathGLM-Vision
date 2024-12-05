@@ -28,7 +28,7 @@ Our MathGLM-Vision models have achieved strong performance across various benchm
 
 
 ## Detailed performance
-Performance comparison.
+Performance comparison between MathGLM-Vision and Closed Source MLLMs.
 
 | Model               | MathVista (GPS) | MathVista | MathVerse | MathVision | MathVL-test|
 |:--------------------|:----------:|:--------:|:------:|:----:|:----:|
@@ -41,6 +41,18 @@ Performance comparison.
 | Claude3.5-Sonnet    |    64.42   |   67.70  |  48.98 | 37.99| 46.84 |
 | Qwen-VL-Plus   |33.01   |  43.30  |  19.10 | 10.72 | 28.50 |
 | Qwen-VL-Max   |    46.12   |   51.00  |  35.90 | 15.59| 35.61 |
+| MathGLM-Vision-9B   |    64.42   |   52.20  |  44.20 | 19.18| 57.05 |
+| MathGLM-Vision-19B  |    \textbf{65.38}   |   61.10  |  42.50 | 21.64| 57.30 |
+| MathGLM-Vision-32B  |    62.02   |   62.40  |  49.20 | 26.51| 59.00 |
+
+Performance comparison between MathGLM-Vision and Open Source mathematical MLLMs.
+
+| Model               | MathVista (GPS) | MathVista | MathVerse | MathVision | 
+|:--------------------|:----------:|:--------:|:------:|:----:|
+| G-LLaVA (13B)  | 56.70   |  35.84  |  14.59 | 13.27 |
+| LLaVA-1.5-G (13B)   |    36.54   |   48.34 |  15.61 | 14.88 |
+| ShareGPT4V-G (13B)   | 43.27   |  49.14  |  16.37 | 14.45 |
+| Math-LLaVA   |    57.70   |   46.60  |  19.04 | 15.69|
 | MathGLM-Vision-9B   |    64.42   |   52.20  |  44.20 | 19.18| 57.05 |
 | MathGLM-Vision-19B  |    65.38   |   61.10  |  42.50 | 21.64| 57.30 |
 | MathGLM-Vision-32B  |    62.02   |   62.40  |  49.20 | 26.51| 59.00 |
