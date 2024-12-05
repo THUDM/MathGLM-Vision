@@ -4,7 +4,8 @@ Official Pytorch Implementation for MathGLM-Vision
 
 ![](resources/perf.png)
 
-Large language models (LLMs) have demonstrated significant capabilities in mathematical reasoning, particularly with text-based mathematical problems. However, current multi-modal large language models (MLLMs), especially those specialized in mathematics, tend to focus predominantly on solving geometric problems but ignore the diversity of visual information available in other areas of mathematics. Moreover, the geometric information for these specialized mathematical MLLMs is derived from several public datasets, which are typically limited in diversity and complexity. To address these limitations, we aim to construct a fine-tuning dataset named MathVL, and develop a series of specialized mathematical MLLMs termed MathGLM-Vision by conducting Supervised Fine-Tuning (SFT) on MathVL with various parameter-scale backbones. To extensively evaluate the effectiveness of MathGLM-Vision, we conduct experiments on several public benchmarks and our curated MathVL-test consisting of 2,000 problems. Experimental results demonstrate that MathGLM-Vision achieves significant improvements compared with some existing models, including backbone models and open-source mathematical MLLMs. These findings indicate the importance of diversity dataset in enhancing the mathematical reasoning abilities of MLLMs.
+We have developed a new series of multimodal mathematical models, MathGLM-Vision, and open-sourced two models based on GLM-4V-9B and CogVLM2, respectively. Compared to backbone models and open-source mathematical MLLMs (Multi-modal Large Language Models), MathGLM-Vision achieves significant improvements on several public benchmarks and our curated MathVL-test. 
+
 
 If you want to find the detailed introduction, Read our paper: [MathGLM-Vision: Solving Mathematical Problems with Multi-Modal Large Language Model](https://arxiv.org/pdf/2409.13729).
 
@@ -27,7 +28,23 @@ Our MathGLM-Vision models have achieved strong performance across various benchm
 
 
 ## Detailed performance
-Performance on 
+Performance comparison.
+
+| Model               | MathVista (GPS) | MathVista | MathVerse | MathVision | MathVL-test|
+|:--------------------|:----------:|:--------:|:------:|:----:|:----:|
+| Gemini Pro   |    40.40  |   45.20  |  36.80 | 17.66| - |
+| Gemini-1.5-Pro   |   53.85   |  63.90  |  51.08 | 19.24| 52.03 |
+| GPT-4V   |    50.50  |   49.90  |  50.80 | 22.76| 35.89 |
+| GPT-4-turbo   |    58.25   |   58.10  |  43.50 | 30.26 |  42.19 |
+| GPT-4o   |    64.71   |   63.80  |  56.65 | 30.39| 51.05 |
+| Claude3-Opus   |    52.91   |   50.50  |  31.77 | 27.13| 33.77 |
+| Claude3.5-Sonnet    |    64.42   |   67.70  |  48.98 | 37.99| 46.84 |
+| Qwen-VL-Plus   |33.01   |  43.30  |  19.10 | 10.72 | 28.50 |
+| Qwen-VL-Max   |    46.12   |   51.00  |  35.90 | 15.59| 35.61 |
+| MathGLM-Vision-9B   |    64.42   |   52.20  |  44.20 | 19.18| 57.05 |
+| MathGLM-Vision-19B  |    65.38   |   61.10  |  42.50 | 21.64| 57.30 |
+| MathGLM-Vision-32B  |    62.02   |   62.40  |  49.20 | 26.51| 59.00 |
+
 
 
 ## Quick start
