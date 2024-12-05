@@ -42,7 +42,7 @@ Performance comparison between MathGLM-Vision and Closed Source MLLMs.
 | Qwen-VL-Plus   |33.01   |  43.30  |  19.10 | 10.72 | 28.50 |
 | Qwen-VL-Max   |    46.12   |   51.00  |  35.90 | 15.59| 35.61 |
 | MathGLM-Vision-9B   |    64.42   |   52.20  |  44.20 | 19.18| 57.05 |
-| MathGLM-Vision-19B  |    \textbf{65.38}   |   61.10  |  42.50 | 21.64| 57.30 |
+| MathGLM-Vision-19B  |    65.38   |   61.10  |  42.50 | 21.64| 57.30 |
 | MathGLM-Vision-32B  |    62.02   |   62.40  |  49.20 | 26.51| 59.00 |
 
 Performance comparison between MathGLM-Vision and Open Source mathematical MLLMs.
