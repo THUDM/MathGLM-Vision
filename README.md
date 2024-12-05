@@ -61,9 +61,12 @@ Performance comparison between MathGLM-Vision and Open Source mathematical MLLMs
 
 ## Quick start
 
+### Inference
+
+### Finetune
 
 
-### Citation
+## Citation
 
 If you find our work helpful, please consider citing the following papers
 
